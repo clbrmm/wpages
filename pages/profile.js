@@ -4,9 +4,6 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
-import Camera from "@material-ui/icons/Camera";
-import Palette from "@material-ui/icons/Palette";
-import Favorite from "@material-ui/icons/Favorite";
 import RestaurantIcon from '@material-ui/icons/Restaurant';
 import BuildIcon from '@material-ui/icons/Build';
 import BusinessIcon from '@material-ui/icons/Business';
@@ -105,7 +102,7 @@ export default function ProfilePage(props) {
                   color="primary"
                   tabs={[
                     {
-                      tabButton: "Restauranes",
+                      tabButton: "Restauraness",
                       tabIcon: RestaurantIcon,
                       tabContent: (
                         <GridContainer justify="center">
