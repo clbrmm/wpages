@@ -57,7 +57,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <Icon className={classes.icons}>mail</Icon> Contato
+          <Icon className={classes.icons}>mail</Icon> email
         </Button>
       </ListItem>
 
@@ -77,7 +77,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/clbrmmweb"
+            href="https://twitter.com/clbrmm"
             target="_blank"
             color="transparent"
             className={classes.navLink}

@@ -17,18 +17,22 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
 
-import profile from "assets/img/faces/clbrmmweb.jpg";
+import profile from "assets/img/faces/avatar.jpg";
 
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
+import studio1 from "assets/img/examples/code01.jpg";
+import studio2 from "assets/img/examples/code02.png";
+import studio3 from "assets/img/examples/code03.png";
+import studio4 from "assets/img/examples/code04.png";
+import negocio01 from "assets/img/examples/negocios01.png";
+import negocio02 from "assets/img/examples/negocios02.jpg";
+import negocio03 from "assets/img/examples/negocios03.jpg";
+import negocio04 from "assets/img/examples/negocios04.png";
+import negocio05 from "assets/img/examples/negocios05.jpg";
+import work1 from "assets/img/examples/eletricidade01.jpg";
+import work2 from "assets/img/examples/eletricidade02.jpg";
+import work3 from "assets/img/examples/eletricidade03.jpg";
+import work4 from "assets/img/examples/eletricidade04.png";
+import work5 from "assets/img/examples/eletricidade05.png";
 
 import styles from "assets/jss/nextjs-material-kit/pages/profilePage.js";
 
@@ -67,9 +71,12 @@ export default function ProfilePage(props) {
                     <img src={profile} alt="..." className={imageClasses} />
                   </div>
                   <div className={classes.name}>
-                    <h3 className={classes.title}>CLBRMMWEB</h3>
-                    <h6>WEB DEV</h6>
-                    <Button justIcon link className={classes.margin5}>
+                    <h3 className={classes.title}>CLEBER MENDES</h3>
+                    <h6>ELETRICISTA</h6>
+                    <Button justIcon link className={classes.margin5}
+                    href="https://twitter.com/clbrmm"
+                    target="_blank"
+                    >
                       <i className={"fab fa-twitter"} />
                     </Button>
                     <Button justIcon link className={classes.margin5}>
@@ -84,12 +91,9 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                As expectativas dos usuários da internet aumentaram nos últimos anos
-                com as habilidades do desenvolvimento de paginas web por especialistas,
-                é possível entregar ao usuário a melhor experiencia possível em uma
-                webpage.<br></br>
-                Soluções especificas para as suas necessidades e ganhar a lealdade dos
-                usuários é uma das principais vantagens de fazer uso de um especialista.<br></br>
+                Experiencia em serviços elétricos e de planejamento. <br></br>
+                Soluções especificas para as suas necessidades web para ganhar a lealdade dos
+                usuários é uma das principais vantagens de fazer uso de paginas web.<br></br>
                 Além disso vantagens como ser mais facilmente localizado pelos motores de busca,
                 o tempo de carregamento do site, possibilidade de ser visualizado em qualquer
                 dispositivo e ainda poder ser usado com uma navegação fluida.
@@ -102,7 +106,7 @@ export default function ProfilePage(props) {
                   color="primary"
                   tabs={[
                     {
-                      tabButton: "Restauraness",
+                      tabButton: "Web Dev",
                       tabIcon: RestaurantIcon,
                       tabContent: (
                         <GridContainer justify="center">
@@ -121,7 +125,7 @@ export default function ProfilePage(props) {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={studio5}
+                              src={studio3}
                               className={navImageClasses}
                             />
                             <img
@@ -134,7 +138,7 @@ export default function ProfilePage(props) {
                       )
                     },
                     {
-                      tabButton: "Construtorass",
+                      tabButton: "Eletricidade",
                       tabIcon: BuildIcon,
                       tabContent: (
                         <GridContainer justify="center">
@@ -178,29 +182,29 @@ export default function ProfilePage(props) {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work4}
+                              src={negocio01}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio3}
+                              src={negocio02}
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work2}
+                              src={negocio03}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={work1}
+                              src={negocio05}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio1}
+                              src={negocio04}
                               className={navImageClasses}
                             />
                           </GridItem>
