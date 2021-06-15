@@ -4,7 +4,7 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
-import RestaurantIcon from '@material-ui/icons/Restaurant';
+import CodeIcon from '@material-ui/icons/Code';
 import BuildIcon from '@material-ui/icons/Build';
 import BusinessIcon from '@material-ui/icons/Business';
 // core components
@@ -91,13 +91,9 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                Bem-vindo! 
-                Essa é uma página de apresentação feita por min para divulgação dos principais trabalhos
-                que tenho executado. <br></br>
-                Com experiencia em serviços elétricos e de planejamento, no momento estou terminando as
-                certificações importantes. <br></br>
-                Com experiencia com códigos e páginas web e posso efetuar tarefas diversas relacionados a
-                tecnologia da informação. <br></br>
+              Bem-vindo! Essa é uma página de apresentação de portifólio dos trabalhos que tenho executado
+               nos últimos anos. Tenho estudado nos últimos anos elétrica e segurança eletrônica, 
+               assim como analise de relatórios gerenciais e tecnologia da informação. 
 
               </p>
             </div>
@@ -109,7 +105,7 @@ export default function ProfilePage(props) {
                   tabs={[
                     {
                       tabButton: "Web Dev",
-                      tabIcon: RestaurantIcon,
+                      tabIcon: CodeIcon,
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
