@@ -91,13 +91,14 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                Bem vindo! 
-                Essa é uma pagina de apresentação feita por min para divulgação dos principais trabalhos
-                que tenho executado.<br></br>
+                Bem-vindo! 
+                Essa é uma página de apresentação feita por min para divulgação dos principais trabalhos
+                que tenho executado. <br></br>
                 Com uma experiencia em serviços elétricos e de planejamento, no momento estou terminando as
                 certificações. <br></br>
-                Possou uma experiencia com codigos e paginas web e posso efetuar tarefas diversas relacionados a
-                tecnologia da informação.<br></br>
+                Possou uma experiencia com códigos e páginas web e posso efetuar tarefas diversas relacionados a
+                tecnologia da informação. <br></br>
+
               </p>
             </div>
             <GridContainer justify="center">
