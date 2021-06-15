@@ -91,12 +91,13 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                Experiencia em serviços elétricos e de planejamento. <br></br>
-                Soluções especificas para as suas necessidades web para ganhar a lealdade dos
-                usuários é uma das principais vantagens de fazer uso de paginas web.<br></br>
-                Além disso vantagens como ser mais facilmente localizado pelos motores de busca,
-                o tempo de carregamento do site, possibilidade de ser visualizado em qualquer
-                dispositivo e ainda poder ser usado com uma navegação fluida.
+                Bem vindo! 
+                Essa é uma pagina de apresentação feita por min para divulgação dos principais trabalhos
+                que tenho executado.<br></br>
+                Com uma experiencia em serviços elétricos e de planejamento, no momento estou terminando as
+                certificações. <br></br>
+                Possou uma experiencia com codigos e paginas web e posso efetuar tarefas diversas relacionados a
+                tecnologia da informação.<br></br>
               </p>
             </div>
             <GridContainer justify="center">
